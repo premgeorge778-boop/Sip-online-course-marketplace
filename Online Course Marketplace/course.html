@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoMarket | Courses</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav>
+
+        <div class="logo">GeoMarket</div>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="courses.html">Courses</a></li>
+
+            <li><a href="categories.html">Categories</a></li>
+
+            <li><a href="instructors.html">Instructors</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+        <a href="login.html" class="btn">Login</a>
+
+    </nav>
+
+    <!-- Page Title -->
+
+    <section>
+
+        <h2 class="title">Explore Our Courses</h2>
+
+        <center>
+
+            <div class="search-box">
+
+                <input type="text" id="search" placeholder="Search Courses">
+
+                <button onclick="searchCourse()">Search</button>
+
+            </div>
+
+        </center>
+
+    </section>
+
+    <!-- Course Cards -->
+
+    <section>
+
+        <div class="course-container">
+
+            <!-- Course 1 -->
+
+            <div class="course-card">
+
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=700">
+
+                <div class="course-info">
+
+                    <h3>Web Development</h3>
+
+                    <p>HTML, CSS, JavaScript, Bootstrap</p>
+
+                    <h4 class="price">₹999</h4>
+
+                    <p>⭐⭐⭐⭐⭐</p>
+
+                    <button class="btn"
+                        onclick="enrollCourse('Web Development')">Enroll Now</button>
+
+                </div>
+
+            </div>
+
+            <!-- Course 2 -->
+
+            <div class="course-card">
+
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700">
+
+                <div class="course-info">
+
+                    <h3>Python Programming</h3>
+
+                    <p>Python from Beginner to Advanced</p>
+
+                    <h4 class="price">₹1299</h4>
+
+                    <p>⭐⭐⭐⭐⭐</p>
+
+                    <button class="btn"
+                        onclick="enrollCourse('Python Programming')">Enroll Now</button>
+
+                </div>
+
+            </div>
+
+            <!-- Course 3 -->
+
+            <div class="course-card">
+
+                <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=700">
+
+                <div class="course-info">
+
+                    <h3>Java Programming</h3>
+
+                    <p>Java Core + Advanced Java</p>
+
+                    <h4 class="price">₹1499</h4>
+
+                    <p>⭐⭐⭐⭐⭐</p>
+
+                    <button class="btn"
+                        onclick="enrollCourse('Java Programming')">Enroll Now</button>
+
+                </div>
+
+            </div>
+
+            <!-- Course 4 -->
+
+            <div class="course-card">
+
+                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=700">
+
+                <div class="course-info">
+
+                    <h3>Data Analytics</h3>
+
+                    <p>Excel, SQL, Power BI & Tableau</p>
+
+                    <h4 class="price">₹1799</h4>
+
+                    <p>⭐⭐⭐⭐⭐</p>
+
+                    <button class="btn"
+                        onclick="enrollCourse('Data Analytics')">Enroll Now</button>
+
+                </div>
+
+            </div>
+
+            <!-- Course 5 -->
+
+            <div class="course-card">
+
+                <img src="https://images.unsplash.com/photo-1516321165247-4aa89a48be28?w=700">
+
+                <div class="course-info">
+
+                    <h3>Artificial Intelligence</h3>
+
+                    <p>AI & Machine Learning Basics</p>
+
+                    <h4 class="price">₹1999</h4>
+
+                    <p>⭐⭐⭐⭐⭐</p>
+
+                    <button class="btn"
+                        onclick="enrollCourse('Artificial Intelligence')">Enroll Now</button>
+
+                </div>
+
+            </div>
+
+            <!-- Course 6 -->
+
+            <div class="course-card">
+
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=700">
+
+                <div class="course-info">
+
+                    <h3>Cloud Computing</h3>
+
+                    <p>AWS Cloud Essentials</p>
+
+                    <h4 class="price">₹1699</h4>
+
+                    <p>⭐⭐⭐⭐⭐</p>
+
+                    <button class="btn"
+                        onclick="enrollCourse('Cloud Computing')">Enroll Now</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>© 2026 GeoMarket | Online Course Marketplace</p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
